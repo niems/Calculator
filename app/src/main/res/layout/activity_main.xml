@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#666666"
+    tools:context="com.example.niems.sumpractice.MainActivity">
+
+    <TextView
+        android:id="@+id/calculation_result"
+        android:text="@string/calculation_result"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:gravity="center"
+
+        android:background="#555555"
+        android:textColor="@color/textColor"/>
+
+    <TextView
+        android:id="@+id/calculation_display"
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+
+        android:textSize="25sp"
+        android:gravity="center"
+
+        android:background="#444444"
+        android:textColor="@color/textColor"
+
+        />
+
+    <EditText
+        android:id="@+id/num1"
+        android:hint="@string/number_input1"
+        android:inputType="numberSigned"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:hint="@string/number_input2"
+        android:inputType="numberSigned"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint"/>
+
+    <Button
+        android:id="@+id/calculation_button"
+        android:text="@string/calculation_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:textColor="#222222"
+        android:onClick="calculateSum"
+        />
+
+</LinearLayout>

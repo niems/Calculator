@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SumPractice</string>
+
+    <string name="calculation_result">Result: N/A</string>
+    <string name="number_input1">Num 1: N/A</string>
+    <string name="number_input2">Num 2: N/A</string>
+
+    <string name="calculation_button">calculate sum</string>
+</resources>
